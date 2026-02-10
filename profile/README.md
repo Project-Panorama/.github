@@ -12,7 +12,7 @@
 > **"차가운 빙판 밑에서 헤엄치던 물고기가, 하늘을 나는 요정이 되기까지"**
 
 * **Theme:** `Magical Transformation`, `Dreamy Forest`, `Ice & Light`
-* **Music:** 태연 - **"인사 (Greeting)"** (1:30 Edited Ver.)
+* **Music:** 태연 - **"인사 (Greeting)"** (Edited Ver.)
 * **Key Assets:**
     * 🧜‍♀️ **Character:** 피겨 스케이팅 선수 $\rightarrow$ 숲의 요정 (의상/헤어 체인지)
     * 🐠 **Mascot:** **'베타(Betta)' 물고기** (빙판 아래 $\rightarrow$ 하늘 위로 비상)
