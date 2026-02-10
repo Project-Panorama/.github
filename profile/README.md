@@ -35,7 +35,7 @@
 | **S05** | 00:00 | Follow (Mid) | 착지 순간, 바닥에서 **꽃과 풀(Flower)**이 자라남. 간주 파트에서 **의상(Dress_B)**과 **헤어(Hair_B)**가 화려하게 변함.| `Main_Dress_B` `Main_Hair_B` |
 | **S06** | 00:00 | Crane Up (Full) | 기존 배경으로 다시 돌아오고 엔딩 포즈. 로고 크레딧. | `2D_Title_Logo` |
 
-### 4. Technical Art Strategy (TA Focus)
+### 4. Technical Art Strategy
 이 시네마틱의 핵심 기술 목표는 **"자연스러운 에셋 교체(Swap)"**와 **"환경 변화 연출"**입니다.
 
 * **Dress Swap:** 점프의 정점(Apex)에서 블루프린트 이벤트를 통해 `Dress_A` $\rightarrow$ `Dress_B`로 교체. (프레임 단위 정교함 필요)
