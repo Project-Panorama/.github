@@ -8,34 +8,40 @@
 <details open>
 <summary><h2>🎥 Part 1. Cinematic Production </h2></summary>
 
-## 1. Visual Concept (Mood)
-- **Theme:** `Ethereal`, `Cold but Passionate`, `Cyberpunk Ice`
-- **Color Palette:**
-  - 🧊 **Base:** Deep Blue (#003366) - 차가운 빙판
-  - ✨ **Highlight:** Neon Cyan (#00FFFF) - 스케이트 날의 궤적
-  - 🔥 **Accent:** Warm Orange (#FFAA00) - 주인공의 열정(조명)
-- **Reference:** 김연아 'Danse Macabre', K/DA 뮤직비디오
+### 1. Visual Concept & Storytelling
+> **"차가운 빙판 밑에서 헤엄치던 물고기가, 하늘을 나는 요정이 되기까지"**
 
-## 2. Cinematography Strategy (Camera)
-언리얼 엔진의 **Cine Camera Actor**를 활용하여 다음과 같은 연출을 목표로 함.
-- **Dynamic Tracking:** 스케이트 날을 로우 앵글(Low Angle)로 따라가는 샷.
-- **Dolly Zoom:** 점프 착지 순간 배경이 멀어지는 효과로 긴장감 고조.
-- **Depth of Field (DoF):** 배경을 흐리게 처리(Bokeh)하여 캐릭터 표정에 집중.
+* **Theme:** `Magical Transformation`, `Dreamy Forest`, `Ice & Light`
+* **Music:** 태연 - **"인사 (Greeting)"** (1:30 Edited Ver.)
+* **Key Assets:**
+    * 🧜‍♀️ **Character:** 피겨 스케이팅 선수 $\rightarrow$ 숲의 요정 (의상/헤어 체인지)
+    * 🐠 **Mascot:** **'베타(Betta)' 물고기** (빙판 아래 $\rightarrow$ 하늘 위로 비상)
+    * 🌿 **Environment:** 차가운 아이스링크 $\rightarrow$ 생명이 피어나는 신비로운 숲
 
-## 3. Shot List (Sequence Plan)
-| Shot | Time | Camera Work | Action | Audio |
+### 2. Mood & Tone (Color Palette)
+| Stage | Tone | Color Code | Atmosphere |
+| :--- | :--- | :--- | :--- |
+| **Stage A (Reality)** | **Cold & Lonely** | 🧊 `#003366` (Deep Blue) | 차가운 빙판, 핀 조명, 관중석의 은은한 응원봉(Light Stick) |
+| **Transition** | **Magical** | ✨ `#00FFFF` (Neon Cyan) | 버블(Bubble) 파티클, 빛가루, 의상 변신 이펙트 |
+| **Stage B (Fantasy)** | **Warm & Alive** | 🌿 `#44AA00` (Forest Green) | 자라나는 나무와 풀, 따스한 햇살, 흩날리는 긴 머리 |
+
+### 3. Shot List (Sequence Plan)
+| Shot | Time | Camera Work | Action & VFX | Asset Ref |
 | :---: | :---: | :--- | :--- | :--- |
-| **S01** | 00:00 | Static (Wide) | 텅 빈 빙판, 조명이 하나씩 켜짐 | 빙판 긁는 소리 (SFX) |
-| **S02** | 00:05 | Dolly In (Close-up) | 캐릭터의 떨리는 손끝 -> 눈빛 클로즈업 | 숨소리 + 잔잔한 피아노 |
-| **S03** | 00:15 | **Tracking (Fast)** | 빙판을 박차고 나가는 질주 (스피드감) | 음악 템포 상승 (Crescendo) |
-| **S04** | 00:30 | Arc Rotate (Slo-mo) | **트리플 악셀 점프 (하이라이트)** | 음악 일시 정지 (Silence) |
-| **S05** | 00:45 | Handheld | 착지 후 거친 숨을 몰아쉬며 미소 | 관중 환호성 + 엔딩 곡 |
+| **S01** | 00:00 | Static (Wide) | 어두운 링크장, 주인공 위로 **Pin Spot** 조명 하나만 켜짐.| `Pin_Spot_01` |
+| **S02** | 00:00 | Dolly In (Close-up) | **스케이트 날(Skates_A)**이 빙판을 가르는 클로즈업.| `Main_Skates_A` |
+| **S03** | 00:00 | Tracking (Low) | 빙판 아래로 **물고기(Mascot_Fish_A)**들이 떼를 지어 주인공을 따라옴. 물고기 마리수와 **응원봉(Light_Stick)**의 개수가 점차 늘어남.| `Mascot_Fish_A` `Ice_Link` `Light_Stick`|
+| **S04** | 00:00 | **Arc Rotate (Slow)** | **[하이라이트]** 트리플 악셀 점프! **거품(Env_Change)**효과와 함께 **숲(Forest)**으로 배경 전환. | `Env_Change_FX` `Forest_Skybox` |
+| **S05** | 00:00 | Follow (Mid) | 착지 순간, 바닥에서 **꽃과 풀(Flower)**이 자라남. 간주 파트에서 **의상(Dress_B)**과 **헤어(Hair_B)**가 화려하게 변함.| `Main_Dress_B` `Main_Hair_B` |
+| **S06** | 00:00 | Crane Up (Full) | 기존 배경으로 다시 돌아오고 엔딩 포즈. 로고 크레딧. | `2D_Title_Logo` |
 
-## 4. Lighting & Atmosphere
-- **Lumen Global Illumination:** 실시간 반사광을 통해 얼음의 질감 극대화.
-- **Volumetric Fog:** 경기장의 웅장함과 공기 중의 먼지 입자 표현.
-- **Post Process:** `Bloom` 효과를 강화하여 몽환적인 분위기 연출.
+### 4. Technical Art Strategy (TA Focus)
+이 시네마틱의 핵심 기술 목표는 **"자연스러운 에셋 교체(Swap)"**와 **"환경 변화 연출"**입니다.
 
+* **Dress Swap:** 점프의 정점(Apex)에서 블루프린트 이벤트를 통해 `Dress_A` $\rightarrow$ `Dress_B`로 교체. (프레임 단위 정교함 필요)
+* **Groom Binding:** 머리카락이 `Hair_A`(단정함)에서 `Hair_B`(긴 머리 흩날림)로 바뀔 때 물리 시뮬레이션(Physics)이 튀지 않도록 초기화.
+* **Material Transition:** `Ice_Link` 쉐이더가 `Dissolve` 되면서 아래의 `Grass` 쉐이더가 드러나도록 머티리얼 인스턴스 제어.
+* **Niagara FX:** 스케이트 날의 움직임에 반응하는 `Snow_Spray`와 변신 순간의 `Magic_Dust` 파티클 최적화.
 </details>
 <details>
 <summary><h2>🛠️ Part 2. Engineering & Pipeline </h2></summary>
