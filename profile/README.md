@@ -1,6 +1,25 @@
 # ⛸️ Project: Frozen Stage (가제)
 > Unreal Engine 5 기반 버추얼 휴먼 피겨 스케이팅 시네마틱 프로젝트
 
+<details open>
+<summary><h2>🎥 Part 2. Cinematic Production </h2></summary>
+
+(여기에 아까 작성한 **TA 기획서 내용**을 넣으세요.
+파이프라인, 기술 스택, 깃허브 전략 등...)
+
+</details>
+
+<br>
+
+<details>
+<summary><h2>🛠️ Part 2. Engineering & Pipeline </h2></summary>
+
+(여기에 방금 작성한 **시네마틱 기획서 내용**을 넣으세요.
+비주얼 컨셉, 컷 리스트, 조명 계획 등...)
+
+</details>
+
+
 ## 📂 Repositories
 - 🎨 **Art Source:** [Panorama_ArtSource 바로가기](https://github.com/Project-Panorama/Panorama_ArtSource)
 - 🎬 **Unreal Project:** [Panorama_UE5 바로가기](https://github.com/Project-Panorama/Panorama_UE5)
