@@ -37,9 +37,7 @@
 - **Post Process:** `Bloom` 효과를 강화하여 몽환적인 분위기 연출.
 
 </details>
-
 <br>
-
 <details>
 <summary><h2>🛠️ Part 2. Engineering & Pipeline </h2></summary>
 
