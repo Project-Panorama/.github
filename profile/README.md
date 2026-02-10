@@ -1,6 +1,10 @@
 # ⛸️ Project: Frozen Stage (가제)
 > Unreal Engine 5 기반 버추얼 휴먼 피겨 스케이팅 시네마틱 프로젝트
 
+## 📂 Repositories
+- 🎨 **Art Source:** [Panorama_ArtSource 바로가기](https://github.com/Project-Panorama/Panorama_ArtSource)
+- 🎬 **Unreal Project:** [Panorama_UE5 바로가기](https://github.com/Project-Panorama/Panorama_UE5)
+
 ## 1. 프로젝트 개요
 - **기간:** 202X.XX.XX ~ 202X.XX.XX (4주)
 - **인원:** 6명 (Team Panorama)
