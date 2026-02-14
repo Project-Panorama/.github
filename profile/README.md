@@ -12,7 +12,7 @@
 > **"차가운 빙판 밑에서 헤엄치던 물고기가, 하늘을 나는 요정이 되기까지"**
 
 * **Theme:** `Magical Transformation`, `Dreamy Forest`, `Ice & Light`
-* **Music:** 태연 - **"인사 (Greeting)"** (Edited Ver.)
+* **Music:** 태연 - **"인사 (Panorama)"** (Edited Ver.)
 * **Key Assets:**
     * 🧜‍♀️ **Character:** 피겨 스케이팅 선수 $\rightarrow$ 숲의 요정 (의상/헤어 체인지)
     * 🐠 **Mascot:** **'베타(Betta)' 물고기** (빙판 아래 $\rightarrow$ 하늘 위로 비상)
@@ -48,7 +48,7 @@
 
 ## 1. 프로젝트 개요
 - **기간:** 202X.XX.XX ~ 202X.XX.XX (4주)
-- **인원:** 6명 (Team Panorama)
+- **인원:** 6명
 - **목표:** 블렌더-언리얼 병렬 파이프라인을 구축하여 고품질의 3D 피겨 스케이팅 숏폼 영상(60s) 제작
 - **핵심 기술:** Chaos Cloth Simulation, IK Retargeting, Live Link Face
 
