@@ -4,6 +4,7 @@
 ## 📂 Repositories
 - 🎨 **Art Source:** [Panorama_ArtSource 바로가기](https://github.com/Project-Panorama/Panorama_ArtSource)
 - 🎬 **Unreal Project:** [Panorama_UE5 바로가기](https://github.com/Project-Panorama/Panorama_UE5)
+- 📚 **Tech Posting:** [Tech Posting 바로가기]([https://github.com/mi-iron/TechPosting})
 
 <details open>
 <summary><h2>🎥 Part 1. Cinematic Production </h2></summary>
